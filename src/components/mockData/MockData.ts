@@ -253,9 +253,9 @@ export const mockAccounts: Account[] = [
       },
       {
         dateTime: 'May 31, 2025',
-        description: "Credit from Wells Fargo-sa - XXXXXX20467",
+        description: 'Credit from Wells Fargo-sa - XXXXXX20467',
         status: 'Success',
-        amount_usd: 40000.00
+        amount_usd: 40000.0
       },
       {
         dateTime: 'May 30, 2025',
@@ -287,6 +287,303 @@ export const mockAccounts: Account[] = [
         status: 'Success',
         amount_usd: -2250.35
       }
+    ]
+  },
+  {
+    account_id: 'ACC004',
+    holder: {
+      firstName: 'Williams Marie berrada',
+      mobileNumber: '***-***-****',
+      email: 'marieberrada37@gmail.com',
+      createdOn: '6/4/2025', // m/d/y
+      username: 'marieberrada37',
+      password: 'Stefan1234'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      account_name: false,
+      account_number: true,
+      balance_usd: 70040460.04
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '235665',
+      headerText: 'Dear Valued Customer,',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'June 2, 2025',
+        description: 'Transfer from Amex cc: Thomas Fusinski - XXXXXX28283',
+        status: 'Success',
+        amount_usd: 3000.0
+      },
+      {
+        dateTime: 'June 2, 2025',
+        description: 'Transfer from Amex cc: Thomas Fusinski - XXXXXX19374',
+        status: 'Success',
+        amount_usd: 13800.65
+      },
+      {
+        dateTime: 'June 2, 2025',
+        description: 'Transfer from Amex cc: Thomas Fusinski - XXXXXX37491',
+        status: 'Success',
+        amount_usd: 128100.31
+      },
+      {
+        dateTime: 'June 1, 2025',
+        description: 'Transfer to Walmart Supercenter - XXXXXX84720',
+        status: 'Success',
+        amount_usd: -1725.4
+      },
+      {
+        dateTime: 'May 31, 2025',
+        description: 'Transfer from Wells Fargo-sa - XXXXXX20467',
+        status: 'Success',
+        amount_usd: 250000.0
+      },
+      {
+        dateTime: 'May 30, 2025',
+        description: 'Transfer to Whole Foods Market - XXXXXX93615',
+        status: 'Success',
+        amount_usd: -3120.6
+      },
+      {
+        dateTime: 'May 29, 2025',
+        description: 'Transfer to Target Grocery - XXXXXX75834',
+        status: 'Success',
+        amount_usd: -2588.9
+      },
+      {
+        dateTime: 'May 28, 2025',
+        description: 'Transfer to Costco Wholesale - XXXXXX64529',
+        status: 'Success',
+        amount_usd: -3412.75
+      },
+      {
+        dateTime: 'May 27, 2025',
+        description: 'Transfer to Safeway Grocery - XXXXXX31076',
+        status: 'Success',
+        amount_usd: -1844.0
+      },
+      {
+        dateTime: 'May 26, 2025',
+        description: 'Transfer to Kroger store - XXXXXX98142',
+        status: 'Success',
+        amount_usd: -2250.35
+      },
+      {
+        dateTime: 'April 28, 2025',
+        description: 'Transfer from Brian Thomas Moynihan - XXXXXX5834',
+        status: 'Success',
+        amount_usd: 180000.0
+      },
+      {
+        dateTime: 'April 25, 2025',
+        description: 'Transfer from Brian Thomas Moynihan - XXXXXX7217',
+        status: 'Success',
+        amount_usd: 14500.0
+      },
+      {
+        dateTime: 'April 21, 2025',
+        description: 'Transfer from Brian Thomas Moynihan - XXXXXX1823',
+        status: 'Success',
+        amount_usd: 7500.0
+      },
+      {
+        dateTime: 'April 17, 2025',
+        description: 'Transfer to Sharon Hawley - XXXXXX9461',
+        status: 'Success',
+        amount_usd: -4500.0
+      },
+      {
+        dateTime: 'April 11, 2025',
+        description: 'Transfer from Brian Thomas Moynihan - XXXXXX3197',
+        status: 'Success',
+        amount_usd: 3500.0
+      },
+      {
+        dateTime: 'April 8, 2025',
+        description: 'Transfer from Brian Thomas Moynihan - XXXXXX7286',
+        status: 'Success',
+        amount_usd: 10000.0
+      },
+      {
+        dateTime: 'April 1, 2025',
+        description: 'Transfer to Sharon Hawley - XXXXXX4530',
+        status: 'Success',
+        amount_usd: -4500.0
+      },
+      {
+        dateTime: 'March 28, 2025',
+        description: 'Transfer to Sharon Hawley - XXXXXX3604',
+        status: 'Success',
+        amount_usd: -8000.0
+      },
+      {
+        dateTime: 'March 24, 2025',
+        description: 'Transfer from Brian Thomas Moynihan - XXXXXX1083',
+        status: 'Success',
+        amount_usd: 10500.0
+      },
+      {
+        dateTime: 'March 21, 2025',
+        description: 'Transfer to Sharon Hawley - XXXXXX9472',
+        status: 'Success',
+        amount_usd: -2500.0
+      },
+      {
+        dateTime: 'March 17, 2025',
+        description: 'Transfer from Brian Thomas Moynihan - XXXXXX5639',
+        status: 'Success',
+        amount_usd: 4500.0
+      },
+      {
+        dateTime: 'March 14, 2025',
+        description: 'Transfer from Brian Thomas Moynihan - XXXXXX7860',
+        status: 'Success',
+        amount_usd: 5500.0
+      },
+      {
+        dateTime: 'March 10, 2025',
+        description: 'Transfer to Sharon Hawley - XXXXXX4078',
+        status: 'Success',
+        amount_usd: -3500.0
+      },
+      {
+        dateTime: 'March 3, 2025',
+        description: 'Transfer from Brian Thomas Moynihan - XXXXXX1289',
+        status: 'Success',
+        amount_usd: 5000.0
+      },
+      {
+        dateTime: 'February 28, 2025',
+        description: 'Transfer to Sharon Hawley - XXXXXX2365',
+        status: 'Success',
+        amount_usd: -6500.0
+      },
+      {
+        dateTime: 'February 24, 2025',
+        description: 'Transfer from Brian Thomas Moynihan - XXXXXX9021',
+        status: 'Success',
+        amount_usd: 3000.0
+      },
+      {
+        dateTime: 'February 20, 2025',
+        description: 'Transfer to Sharon Hawley - XXXXXX7836',
+        status: 'Success',
+        amount_usd: -1000.0
+      },
+      {
+        dateTime: 'February 17, 2025',
+        description: 'Transfer from Brian Thomas Moynihan - XXXXXX6074',
+        status: 'Success',
+        amount_usd: 4000.0
+      },
+      {
+        dateTime: 'February 10, 2025',
+        description: 'Transfer to Sharon Hawley - XXXXXX2154',
+        status: 'Success',
+        amount_usd: -6000.0
+      },
+      {
+        dateTime: 'February 7, 2025',
+        description: 'Transfer from Brian Thomas Moynihan - XXXXXX6742',
+        status: 'Success',
+        amount_usd: 4500.0
+      },
+      {
+        dateTime: 'February 3, 2025',
+        description: 'Transfer from Brian Thomas Moynihan - XXXXXX5290',
+        status: 'Success',
+        amount_usd: 5500.0
+      },
+      {
+        dateTime: 'January 30, 2025',
+        description: 'Transfer to Sharon Hawley - XXXXXX6473',
+        status: 'Success',
+        amount_usd: -3500.0
+      },
+      {
+        dateTime: 'January 27, 2025',
+        description: 'Transfer from Brian Thomas Moynihan - XXXXXX8419',
+        status: 'Success',
+        amount_usd: 10000.0
+      },
+      {
+        dateTime: 'January 24, 2025',
+        description: 'Transfer to Sharon Hawley - XXXXXX1184',
+        status: 'Success',
+        amount_usd: -2000.0
+      },
+      {
+        dateTime: 'January 22, 2025',
+        description: 'Transfer from Brian Thomas Moynihan - XXXXXX2950',
+        status: 'Success',
+        amount_usd: 6000.0
+      },
+      {
+        dateTime: 'January 20, 2025',
+        description: 'Transfer from Brian Thomas Moynihan - XXXXXX9093',
+        status: 'Success',
+        amount_usd: 7000.0
+      },
+      {
+        dateTime: 'January 17, 2025',
+        description: 'Transfer to Sharon Hawley - XXXXXX4562',
+        status: 'Success',
+        amount_usd: -1000.0
+      },
+      {
+        dateTime: 'January 13, 2025',
+        description: 'Transfer from Brian Thomas Moynihan - XXXXXX3670',
+        status: 'Success',
+        amount_usd: 4000.0
+      },
+      {
+        dateTime: 'January 6, 2025',
+        description: 'Transfer from Brian Thomas Moynihan - XXXXXX7734',
+        status: 'Success',
+        amount_usd: 3000.0
+      },
+      {
+        dateTime: 'December 30, 2024',
+        description: 'Transfer to Sharon Hawley - XXXXXX6201',
+        status: 'Success',
+        amount_usd: -6500.0
+      },
+      {
+        dateTime: 'December 23, 2024',
+        description: 'Transfer from Brian Thomas Moynihan - XXXXXX4872',
+        status: 'Success',
+        amount_usd: 5500.0
+      },
+      {
+        dateTime: 'December 20, 2024',
+        description: 'Transfer from Brian Thomas Moynihan - XXXXXX1349',
+        status: 'Success',
+        amount_usd: 7500.0
+      },
+      {
+        dateTime: 'December 16, 2024',
+        description: 'Transfer from Brian Thomas Moynihan - XXXXXX3595',
+        status: 'Success',
+        amount_usd: 8500.0
+      },
+      {
+        dateTime: 'December 13, 2024',
+        description: 'Transfer to Sharon Hawley - XXXXXX7340',
+        status: 'Success',
+        amount_usd: -3500.0
+      },
+      {
+        dateTime: 'December 9, 2024',
+        description: 'Transfer from Brian Thomas Moynihan - XXXXXX2427',
+        status: 'Success',
+        amount_usd: 7500.0
+      },
+
     ]
   }
 ];
