@@ -43,7 +43,7 @@ export default function Login() {
             <div className="flex flex-col gap-[30px] p-5 py-8 border rounded-2xl">
               <div className="flex relative flex-col gap-3">
                 <label htmlFor="Username" className="text-[#1E1F20] absolute ml-3 -top-[19px] bg-[#ffffff] py-2 text-[16px]">
-                  Username
+                  Email/Username
                 </label>
                 <input type="text" value={username} className="p-4 rounded-[10px] text-[#1E1F20] bg-transparent border border-gray-300 outline-none" onChange={e => setUsername(e.target.value)} />
               </div>
